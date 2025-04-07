@@ -1,4 +1,5 @@
 const mainTitle = document.querySelector('h1')
+const changeColorInp = document.querySelector('#changeColorInp')
 const btn = document.querySelector('button')
 
 function changeColor(kolor){
@@ -6,6 +7,6 @@ function changeColor(kolor){
 }
 
 btn.addEventListener('click', function(){
-    changeColor('red')
+    changeColor(changeColorInp.value)
     this.style.backgroundColor = '#ff0'
 })
