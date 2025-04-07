@@ -9,5 +9,5 @@ function changeColor(kolor){
 btn.addEventListener('click', function(){
     changeColor(changeColorInp.value)
     this.style.backgroundColor = '#ff0'
-    document.getElementedByID("tytul").textContent = "Nowy tytuł"
+    document.getElementedById("tytul").textContent = "Nowy tytuł"
 })
